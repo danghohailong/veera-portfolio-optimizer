@@ -1,0 +1,28 @@
+[functions]
+  directory = "netlify/functions"
+  node_bundler = "esbuild"
+
+[[redirects]]
+  from = "/api/us"
+  to = "/.netlify/functions/usData"
+  status = 200
+
+[[redirects]]
+  from = "/api/vn"
+  to = "/.netlify/functions/vnData"
+  status = 200
+
+[[redirects]]
+  from = "/api/fx"
+  to = "/.netlify/functions/fx"
+  status = 200
+
+[[redirects]]
+  from = "/api/fundamentals"
+  to = "/.netlify/functions/fundamentals"
+  status = 200
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

@@ -1,0 +1,5 @@
+/api/us /.netlify/functions/usData 200
+/api/vn /.netlify/functions/vnData 200
+/api/fx /.netlify/functions/fx 200
+/api/fundamentals /.netlify/functions/fundamentals 200
+/* /index.html 200

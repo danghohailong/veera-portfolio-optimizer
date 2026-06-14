@@ -1,0 +1,14 @@
+{
+  "name": "veera-portfolio-optimizer-quant-audit-fixed-v6",
+  "version": "6.0.0",
+  "description": "Veera v6: tooltip lifecycle fix, live FX only, Black-Litterman market-cap views, Vietnamese PDF image export, Bonnie-inspired palette, progressive data retrieval, and cleaner dashboard steps.",
+  "private": true,
+  "scripts": {
+    "dev": "netlify dev",
+    "start": "netlify dev",
+    "check": "node --check assets/app.js && node --check netlify/functions/usData.js && node --check netlify/functions/vnData.js && node --check netlify/functions/vn-data.js && node --check netlify/functions/fundamentals.js && node --check netlify/functions/fx.js && node --check netlify/functions/rates.js && node --check netlify/functions/lib/shared.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
